@@ -1,17 +1,17 @@
 Houston Open Development User Group Dojo 001
 ============================================
 
-This is the code for the coding dojo done by the Houston Open Development User 
+This is the code for the coding dojo done by the Houston Open Development User
 Group on 2011-05-03.
 
-This dojo is based off the Kata located at: 
-http://acm.uva.es/p/v103/10315.html and 
-http://codingdojo.org/cgi-bin/wiki.pl?KataPokerHands
+This dojo is based off the Kata located at:
+[http://acm.uva.es/p/v103/10315.html](http://acm.uva.es/p/v103/10315.html) and
+[http://codingdojo.org/cgi-bin/wiki.pl?KataPokerHands](http://codingdojo.org/cgi-bin/wiki.pl?KataPokerHands)
 
 Some example code from a Coding Dojo in London is available at:
-https://github.com/codingdojolondon/sessions/tree/master/poker_hands
+[https://github.com/codingdojolondon/sessions/tree/master/poker_hands](https://github.com/codingdojolondon/sessions/tree/master/poker_hands)
 
-The goal is given an input of 10 cards (first 5 = Hand 1, second 5 = Hand 2) 
+The goal is given an input of 10 cards (first 5 = Hand 1, second 5 = Hand 2)
 determine the the winning hand and output that to the screen.
 
 See the example below
@@ -29,3 +29,4 @@ White wins.
 Black wins.
 Black wins.
 Tie.
+
