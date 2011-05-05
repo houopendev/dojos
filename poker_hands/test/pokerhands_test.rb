@@ -1,4 +1,4 @@
-require 'test/unit'
+require File.expand_path('../test_helper', __FILE__)
 
 class TestPokerHands < Test::Unit::TestCase
 
