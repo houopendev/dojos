@@ -1,0 +1,6 @@
+These are the results of code dojos for the Houston Open Development user group.
+
+poker_hands 
+  * contains an in-progress version of the Kata found at http://www.codingdojo.org/cgi-bin/wiki.pl?KataPokerHands.
+  * written in Ruby
+  * tested with Test::Unit
