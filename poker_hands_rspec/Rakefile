@@ -1,0 +1,11 @@
+require 'rubygems'
+require 'rake'
+require 'rspec'
+require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new(:core) do |spec|
+  task :default => :core
+  spec.pattern = Dir.glob('spec/*_spec.rb')
+  spec.rspec_opts = ['--format d -c']
+end
+
