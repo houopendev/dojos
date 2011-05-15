@@ -4,3 +4,7 @@ poker_hands
   * contains an in-progress version of the Kata found at http://www.codingdojo.org/cgi-bin/wiki.pl?KataPokerHands.
   * written in Ruby
   * tested with Test::Unit
+
+poker_hands_rspec
+  * a continuation of the poker_hands kata above
+  * tested with RSpec2
