@@ -12,7 +12,7 @@ class Hand
   
   def initialize(cards)
     @cards = cards.split(" ").map {|c| Card.new(c)}
-    raise InvalidHand.new "Valid hand has 5 cards" if cards.split(" ").count < 5
+    raise InvalidHand.new "Valid hand has 5 cards" if @cards.count < 5
   end
   
   def card_count
