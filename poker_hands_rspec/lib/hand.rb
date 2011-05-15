@@ -1,8 +1,18 @@
+
 class Hand
+  class InvalidHand < StandardError
+    attr_reader :message
+
+    def initialize(message)
+      @message = message
+    end
+  end
+
   attr_reader :cards
   
   def initialize(cards)
     @cards = cards.split(" ").map {|c| Card.new(c)}
+    raise InvalidHand.new "Valid hand has 5 cards" if cards.split(" ").count < 5
   end
   
   def card_count
