@@ -1,8 +1,9 @@
-Houston Open Development User Group Dojo 001
-============================================
+Houston Open Development User Group Dojo 001b
+=============================================
 
 This is the code for the coding dojo done by the Houston Open Development User
-Group on 2011-05-03.
+Group on 2011-06-07. It is a continuation of the Poker Hands dojo that we did 
+using Test::Unit with the testing framework changed to RSpec2.
 
 This dojo is based off the Kata located at:  
 [http://acm.uva.es/p/v103/10315.html](http://acm.uva.es/p/v103/10315.html) and  
