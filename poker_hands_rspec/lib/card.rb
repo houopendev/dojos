@@ -1,5 +1,5 @@
 class Card
-  attr_reader :value
+  attr_accessor :value
   attr_reader :suit
   
   VALUES = "A23456789TJQK"
